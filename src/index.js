@@ -1,3 +1,4 @@
+/* eslint-disable react/prefer-stateless-function */
 import React, { Component, Fragment } from 'react';
 import { render } from 'react-dom';
 
@@ -6,6 +7,7 @@ class App extends Component {
     return (
       <Fragment>
         <h1>Hello from my first project</h1>
+        <p>Create branch development</p>
       </Fragment>
     );
   }
