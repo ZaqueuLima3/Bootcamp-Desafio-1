@@ -23,47 +23,53 @@ body {
     }
 
     .posts {
-      margin: 20px 0;
-      align-self: center;
-      width: 60%;
-      background-color: #fff;
-      padding: 20px;
       display: flex;
       flex-direction: column;
-      border-radius: 10px;
-      box-shadow: 1px 1px 8px -1px rgba(84, 84, 84, 1);
 
-      .header-post {
+      .post-content {
         display: flex;
-
-        img {
-          height: 60px;
-          border-radius: 50%;
-        }
-
-        .info-post {
-          height: 60px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          margin-left: 10px;
-        }
-
-        small {
-          color: #999;
-        }
-      }
-
-      hr {
-        margin-top: 20px;
+        flex-direction: column;
+        margin-top: 30px;
         align-self: center;
-        background-color: #eee;
-        width: 90%;
-        height: 0.1px;
-      }
+        width: 60%;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 8px -1px rgba(84, 84, 84, 1);
 
-      .body-post {
-        margin-top: 20px;
+        .header-post {
+          display: flex;
+
+          img {
+            height: 60px;
+            border-radius: 50%;
+          }
+
+          .info-post {
+            height: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 10px;
+          }
+
+          small {
+            color: #999;
+          }
+        }
+
+        hr {
+          margin-top: 20px;
+          align-self: center;
+          background-color: #eee;
+          width: 90%;
+          height: 0.1px;
+        }
+
+        .body-post {
+          margin-top: 20px;
+          padding: 0 10px;
+        }
       }
     }
   }
