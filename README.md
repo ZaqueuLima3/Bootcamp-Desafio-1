@@ -12,4 +12,9 @@ Conteúdos abordados no curso GoStack-5 da Rocketseat
 
 Nesse projeto foi desenvolvido um feed de posts estilo Facebook. O desafio foi criar um layout tentando chegar o mais proximo de uma imagem base do projeto
 
+<a href="https://raw.githubusercontent.com/ZaqueuLima3/Bootcamp-Desafio-1/development/final.png" > Resultado final </a>
+
 <a href="https://rocketseat.com.br/bootcamp">Veja mais sobre o Bootcamp</a>
+
+
+
