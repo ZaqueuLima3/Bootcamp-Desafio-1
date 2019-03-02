@@ -2,7 +2,9 @@
 import React, { Component, Fragment } from 'react';
 import { render } from 'react-dom';
 
-import Header from './header';
+import Header from './Header';
+import Posts from './Posts';
+
 import '../styles/style.scss';
 
 class App extends Component {
@@ -10,8 +12,9 @@ class App extends Component {
     return (
       <Fragment>
         <Header />
-        <h1>Hello from my first project</h1>
-        <p>Create branch development</p>
+        <div className="posts">
+          <Posts />
+        </div>
       </Fragment>
     );
   }
