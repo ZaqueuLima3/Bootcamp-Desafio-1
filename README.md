@@ -14,4 +14,6 @@ Nesse projeto foi desenvolvido um feed de posts estilo Facebook. O desafio foi c
 
 <a href="https://rocketseat.com.br/bootcamp">Veja mais sobre o Bootcamp</a>
 
+<h2>Resultado final</h2>
+
 <img src="./final.png" height="400">
